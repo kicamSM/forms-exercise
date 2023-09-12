@@ -44,6 +44,7 @@ const NewBoxForm = ({ addBox }) => {
         name="color"
         value={formData.color}
         onChange={handleChange}
+        placeholder="Color of Box"
       />
 
       <label htmlFor="width">Width:</label>
@@ -53,6 +54,7 @@ const NewBoxForm = ({ addBox }) => {
         name="width"
         value={formData.width}
         onChange={handleChange}
+        placeholder="Width of Box"
       />
        <label htmlFor="height">Height:</label>
         <input
@@ -61,6 +63,7 @@ const NewBoxForm = ({ addBox }) => {
         name="height"
         value={formData.height}
         onChange={handleChange}
+        placeholder="Height of Box"
       />
 
       <button>Add a new div!</button>
